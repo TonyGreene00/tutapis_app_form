@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Application Form</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<form action="#">
+
+<div class="container">
+
+<h1 id="h1">APPLICATION FORM</h1>
+<h2 class="h2">PERSONAL INFORMATION</h2>
+	<input type="text" name="fname" placeholder="FIRST NAME" class="name" required>
+<br><br>
+
+	<input type="text" name="lname" placeholder="LAST NAME" class="name" required>
+<br><br>
+<div class="row">
+	<div class="col-6">
+	<input type="text" name="email" placeholder="EMAIL" class="phone" required>
+    </div>
+	<div class="col-6">
+	<input type="text" name="pnumber" placeholder="PHONE NUMBER" class="phone" required>
+    </div>
+</div>
+
+<div class="row" id="div">
+	<div class="col-6">
+        <h2 id="h_dob">DATE OF BIRTH</h2>
+		<input type="number" name="day" id="datemax" max="31" min="1" placeholder="DD" class="dob" required>
+		<input type="number" name="month" id="datemax" max="12" min="1"placeholder="MM" class="dob" required>
+		<input type="number" name="year" id="datemax" max="infinity" min="1960"placeholder="YY" class="dob" required>
+    </div>
+    <div class="col-6">
+	     <h2 id="h_select">PROGRAM</h2>
+		  <select name="program">
+		        <option value="select" selected disabled>Select</option>
+		    	<option value="web development">Web Development</option>
+		    	<option value="mobile app development">Mobile App Development</option>
+		    	<option value="ios app development">IOS App Development</option>
+		  </select>
+    </div>
+</div>
+
+ <h2 class="h3">Please Select Options Below As Applied To You. Provide Honest Answers.</h2>
+<h3 class="h3">1. I Have Prior Programming Knowledge</h3>
+	 <input type="radio" name="knowldge" value="prior programming knowledge">Strongly Agree <br>
+	 <input type="radio" name="knowldge" value="prior programming knowledge">Agree <br>
+	 <input type="radio" name="knowldge" value="prior programming knowledge">Disagree <br>
+	  <input type="radio" name="knowldge" value="prior programming knowledge">Strongly Disagree 
+
+  <h3 class="h3">2. I Have Constant Access To Laptop/Desktop Computer Devices.</h3>
+      <input type="radio" name="computer access" value="access to computer">Strongly Agree <br>
+      <input type="radio" name="computer access" value="access to computer">Agree <br>
+      <input type="radio" name="computer access" value="access to computer">Disagree <br>
+      <input type="radio" name="computer access" value="access to computer">Strongly Disagree 
+
+  <h3 class="h3">3. I Have Constant Access To The Internet.</h3>
+      <input type="radio" name="internet access" value="access to internet">Strongly Agree <br>
+      <input type="radio" name="internet access" value="access to internet">Agree <br>
+      <input type="radio" name="internet access" value="access to internet">Disagree <br>
+      <input type="radio" name="internet access" value="access to internet">Strongly Disagree 
+
+   <h3 class="h3">4. I Can Commit At Least 5 Hours A Day Or 30 Minutes A Week To Achieve Your Goal.</h3>
+      <input type="radio" name="commitment" value="commitment">Strongly Agree <br>
+      <input type="radio" name="commitment" value="commitment">Agree <br>
+      <input type="radio" name="commitment" value="commitment">Disagree <br>
+      <input type="radio" name="commitment" value="commitment">Strongly Disagree 
+
+  <h3 class="h3">5. I Will Be Committed To The Programme, Even When It's Inconvenient, Challenging, Or Does Not Serve Me.</h3>
+      <input type="radio" name="commitment to program" value="program commitment">Strongly Agree <br>
+      <input type="radio" name="commitment to program" value="program commitment">Agree <br>
+      <input type="radio" name="commitment to program" value="program commitment">Disagree <br>
+      <input type="radio" name="commitment to program" value="program commitment">Strongly Disagree
+
+  <p class="h3"><b>A Dream Does Not Become Reality Through Magic; It Takes Sweat, Determination, And Hard Work. <br>
+  In This Internship, We Will Be Developing And Maintaining Responsive And Secure Websites (Web Developers) And Also Build Mobile Applications For Both Android And IOS Devices (Mobile App Developers).</b></p>
+
+  <h3 class="h3">As A Web Developer/Mobile App Developer, You Will Be Responsible For:</h3>
+
+  <ol>
+  <li>Designing And Developing Responsive Websites/User Friendly Mobile Applications For Android or IOS Devices.</li>
+  <li>Maintaining And Updating Websites/Mobile Applications To Meet modern Web Standards.</li>
+  <li>Building User Interfaces And Prototypes From Wireframes And Designs.</li>
+  <li>Coding And Deploying Applications In A Cross-Platform, Cross Browser Environment.</li>
+  <li>Testing Websites/Mobile Applications.</li>
+</ol>
+
+  <h3 class="h3">Haven Known Your Roles As A Web Developer/Mobile App Developer;</h3>
+  <ol>
+  <li>What Are Your Motivations To Becoming A Web/Mobile App Developer?</li>
+  <textarea name="Answers" placeholder="Answers" class="ta" required></textarea>
+  <br><br>
+  <li>What Makes You A Suitable Candidate For This Position (Internship)?</li>
+  <textarea name="Answers" placeholder="Answers" class="ta" required></textarea>
+</ol>
+  <br>
+
+<input type="submit" value="Submit">
+
+</div>
+</form>
+
+</body>
+</html>
